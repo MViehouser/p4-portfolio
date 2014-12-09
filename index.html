@@ -2,62 +2,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Your Website</title>
+  <title>Gallery</title>
 	
  <link rel="icon" href="favicon.ico">	
  
   <link rel="stylesheet" href="css/normalize.css">				
-  <link rel="stylesheet" href="css/gallery.css">	 
+  <link rel="stylesheet" href="css/gallery.css">
+	<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/styles.css">	
 	
 </head>
 <body>
 	
-	<div class="container showgrid">
-		
+	<div class="container">
+
+			<!-- Navigation -->
+		<header class="header">
+			<nav>
+				<ul>
+					<li><a href="portfolio.html" class="selected">Portfolio</a></li>
+					<li><a href="index.html">Resume</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html" >Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+			
 		<!-- Your Content -->
-		<div class="gallery items-4">
+		<div class="grid_12 alpha omega">
 
-			<!-- Containers for each image -->
-			  <div id="item-1" class="control-operator"></div>
-			  <div id="item-2" class="control-operator"></div>
-			  <div id="item-3" class="control-operator"></div>
-			  <div id="item-4" class="control-operator"></div>
-			  
-			  <!-- Actual Images -->
-			  <figure class="item">
-			    <img src="img/1.jpg" alt="">
-			  </figure>
+			<div class="grid_3 alpha">
+				<img src="img/armor.jpg" alt="suit of armor">
+			</div>
+			<div class="grid_3">
+				<img src="img/bear.jpg" alt="carving of bear">
+			</div>
+			<div class="grid_3">
+				<img src="img/czechpoint.jpg" alt="image with words czech point">
+			</div>
+			<div class="grid_3 omega">
+				<img src="img/vase.jpg" alt="vase on table in church">
+			</div>
+			<div  class="grid_4 alpha">
+				<img src="img/memorial_1.jpg" alt="war memorial">
+			</div>
+			<div class="grid_4">
+				<img src="img/memorial_2.jpg" alt="war memorial">
+			</div>
+			<div class="grid_4 omega">
+				<img src="img/memorial_3.jpg" alt="war memorial">
+			</div>
+			<div>
+				<img src="img/luther.jpg" alt="Martin Luther">
+			</div>
 
-			  <figure class="item">
-			    <img src="img/2.jpg" alt="">
-			  </figure>
 
-			  <figure class="item">
-			    <img src="img/3.jpg" alt="">
-			  </figure>
 
-			  <figure class="item">
-			    <img src="img/4.jpg" alt="">
-			  </figure>
-
-			  
-			  <!-- Actual Controls for each Image -->
-			  <div class="controls">
-			    <a href="#item-1" class="control-button">
-			    	<img src="img/1-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-2" class="control-button">
-			    	<img src="img/2-thumb.jpg" alt="">
-			    </a>
-			    <a href="#item-3" class="control-button">
-					<img src="img/3-thumb.jpg" alt="">
-			    </a>
-			  	<a href="#item-4" class="control-button">
-					<img src="img/4-thumb.jpg" alt="">
-			    </a>
-			   
-			  </div>
 			</div>
 
 		<!-- Clearfix -->

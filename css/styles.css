@@ -9,16 +9,6 @@ body {
 
 /* Your Website Styles */
 
-section .memorial div {
-  height: 250px;
-  width: 250px;
-}
-
-#memorial > img {
-  height: 250px;
-  width: 250px;
-}
-
 .box {
   border: 3px solid #fff;
   box-shadow: 0px 0px 8px;
@@ -126,8 +116,25 @@ a.lightbox-close:after {
   top: 0px;
 }
 
+h2 {
+  font-size: 3em;
+  color: #90B6CB;
+  font-family: 'Cardo', serif; 
+  font-weight: 700; 
+  font-style: bold;
+  margin-left: .5em;
+  margin-bottom: -.1em;
+}
 
+p {
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 1.2em;
+}
 
+footer {
+  font-size: .8em;
+  text-align: center;
+}
 
 
 /**********************************NAVIGATION and HEADER************************************/
